@@ -1,4 +1,4 @@
-- corpus :
+- corpus : &ACLA
   - name : ACL Anthology
   - www :  http://acl-arc.comp.nus.edu.sg/
   - www2 : http://aclweb.org/anthology/
@@ -33,3 +33,25 @@
     - description : logical document structure and parsed citations information from ParsCit (v130908).
     - type : xml
     - size : 356M
+- corpus : &OCC
+    - name : Open Citations Corpus
+    - www : http://opencitations.net/
+    - contact :
+      - name : Silvio Peroni
+      - email : essepuntato@opencitations.net
+      - github : https://github.com/essepuntato
+    - description :
+
+        The Open Cirations Corpus is an open repository of scholarly citation data made available
+        under a Creative Commons public domain dedication, which provides in RDF accurate citation
+        information (bibliographic references) harvested from the scholarly literature.
+
+    - dataset :
+      - name :
+      - url : https://figshare.com/articles/OCC_dataset_of_all_the_author_roles_as_of_December_24_2016/4560547
+- corpus :
+    - name : PubMedCentral
+    - www : https://europepmc.org/
+- corpus :
+    - name : arXiv
+    - www : http://arxiv.org
