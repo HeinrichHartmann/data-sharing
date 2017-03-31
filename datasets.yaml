@@ -1,24 +1,35 @@
-- corpus : ACL Anthology
-  - website : http://acl-arc.comp.nus.edu.sg/
-  - project : http://aclweb.org/anthology/
-  - contact : Min-Yen Kan kanmy@comp.nus.edu.sg http://www.comp.nus.edu.sg/~kanmy/
-  - description : The ACL Anthology currently hosts over 40,000 papers on the study of computational linguistics and natural language processing.
+- corpus :
+  - name : ACL Anthology
+  - www :  http://acl-arc.comp.nus.edu.sg/
+  - www2 : http://aclweb.org/anthology/
+  - contact :
+    - name : Min-Yen Kan
+    - email : kanmy@comp.nus.edu.sg
+    - www : http://www.comp.nus.edu.sg/~kanmy/
+  - description :
+      The ACL Anthology currently hosts over 40,000 papers on the study of computational linguistics
+      and natural language processing.
+  - dataset :
+    - name : PDFs
+    - description :  The original PDFs from the ACL Anthology. Does not contain full volume files.
+    - url : http://acl-arc.comp.nus.edu.sg/archives/acl-arc-160301-pdf
+    - type : pdf
+    - size : 7.8G
   - dataset :
     - name : ACL XML Metadata
     - url : http://acl-arc.comp.nus.edu.sg/archives/acl-arc-160301-aclxml
-    - description :  The XML metadata in ACL XML format, used to generate the ACL Anthology representation. See the tools and related links for the unofficial DTD.
+    - type : xml
+    - description :  The XML metadata in ACL XML format, used to generate the ACL Anthology representation.
     - size : 1.8M
-  - dataset :
-    - name : PDFs
-    - url : http://acl-arc.comp.nus.edu.sg/archives/acl-arc-160301-pdf
-    - size : 7.8G - The original PDFs from the ACL Anthology. Does not contain full volume files.
   - dataset :
     - name : OmniPage OCR XML
     - url : http://acl-arc.comp.nus.edu.sg/archives/acl-arc-160301-omnipage
     - size : 2.0G
     - description : XML output from the commercial optical character recognition software, Nuance Omnipage.
+    - type : xml
   - dataset :
     - name : ParsCit structured XML
     - url : http://acl-arc.comp.nus.edu.sg/archives/acl-arc-160301-parscit
     - description : logical document structure and parsed citations information from ParsCit (v130908).
+    - type : xml
     - size : 356M
