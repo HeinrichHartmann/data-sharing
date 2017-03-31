@@ -37,7 +37,7 @@
     (branches, tags) pointt to nodes of the tree.
   - De-centralization. Git is de-central by design. There is no central git server. All git checkouts are equal.
   - Separate Hosting Service and Data Sharing. GitHub is the dominant platform for hosting and
-    viewing git repositories. But it's by no means the only one. Everyone can install open source
+    viewing git repositories, but it's by no means the only one. Everyone can install open source
     UIs like GitLab, or use alternative providers like BitBucket.
   - Plan for change. Codebases are under constant change by a variety of people. The very purpose of
     git is to manage changes in the code-base in a repository.
