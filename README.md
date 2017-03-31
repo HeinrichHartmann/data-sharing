@@ -33,8 +33,8 @@
 ## Successful examples of data sharing
 
 - Git & GitHub are great examples for a successful data sharing infrastructure
-  - Hash (sha1) based file and linking and addressing. There are no git ID's, only SHA-1 hashes to
-    refer to files, commits, etc. Mutable meta-data points to nodes of Merkle trees.
+  - Use sha1-hashes (Merkle trees) for addressing files, trees and commits. Mutable meta-data
+    (branches, tags) pointt to nodes of the tree.
   - De-centralization. Git is de-central by design. There is no central git server. All git checkouts are equal.
   - Separate Hosting Service and Data Sharing. GitHub is the dominant platform for hosting and
     viewing git repositories. But it's by no means the only one. Everyone can install open source
