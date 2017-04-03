@@ -39,6 +39,8 @@
 
 - BibJSON http://okfnlabs.org/bibjson/
 
+- BibTex https://en.wikipedia.org/wiki/BibTeX#Bibliographic_information_file
+
 ## Data Sets
 
 - [Public Datasets as YAML](datasets.yaml)
@@ -115,6 +117,49 @@
 * ... User facing services (related-work.net) should be able to pull in meta-data from different data-providers
 
 * ... Researches should be able to see the results of their methods quickly
+
+## Data Sharing Workflows
+
+### Git Sync
+
+The data-set is version controlled under git.
+
+* Bulk download. The data is cloned from a public repository hosted (a) by the institution or
+  (b) a public hoster like GitHub or FigShare.
+  
+  `git clone <>`
+
+* Pull in Updates: `git pull`
+
+* Review changes after update: `git diff HEAD@{1}`
+
+* Publishing a new dataset:
+  a) For the repository on GitHub. Push changes.
+  b) Publish a git repository over SSH/HTTP. Push changes.
+
+* Contributing back changes:
+  - "Make a Pull Request on GitHub"
+  - Send an email advertising a commit/branch on a public repo.
+
+* Audit changes: `git log`
+
+### Rsync
+
+The data-set is published via rsync.
+
+* Publishing: Self hosted. Install rsyncd. Advertise `rsync://` url.
+
+* Bulk download: `rsync -rtv <URL>`
+
+* Pull in Updates: `rsync -rtv <URL>`
+
+* Review changes after update: ?
+
+* Contributing back changes:
+  1. Publish updates as rsync endpoint
+  2. Ask upstream provider to pull in changes
+
+* Audit changes: ?
 
 ## Further Remarks
 
